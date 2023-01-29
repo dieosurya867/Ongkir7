@@ -22,11 +22,11 @@ $(document).ready(function () {
 
     $("#destination_city").select2({
         ajax: {
-            type: "POST",
             url: "/api/cities",
-            delay: 10,
-            dataType: "JSON",
-            data: function (response) {
+            type: "POST",
+            dataType: "json",
+            delay: 150,
+            data: function (params) {
                 return {
                     _token: $('meta[name="csrf-token"]').attr("content"),
                     search: $.trim(params.term),
