@@ -43718,10 +43718,10 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! c:\xampp\htdocs\laravel\Ongkir7\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! c:\xampp\htdocs\laravel\Ongkir7\resources\js\ongkir.js */"./resources/js/ongkir.js");
-__webpack_require__(/*! c:\xampp\htdocs\laravel\Ongkir7\node_modules\select2\dist\js\select2.min.js */"./node_modules/select2/dist/js/select2.min.js");
-module.exports = __webpack_require__(/*! c:\xampp\htdocs\laravel\Ongkir7\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\laravel\Ongkir7\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\xampp\htdocs\laravel\Ongkir7\resources\js\ongkir.js */"./resources/js/ongkir.js");
+__webpack_require__(/*! C:\xampp\htdocs\laravel\Ongkir7\node_modules\select2\dist\js\select2.min.js */"./node_modules/select2/dist/js/select2.min.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel\Ongkir7\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
