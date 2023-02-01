@@ -43658,6 +43658,8 @@ window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
+  $("#province_origin").select2({});
+  $("#city_origin").select2({});
   $('select[name="province_origin"]').on("change", function () {
     var provinceId = $(this).val();
     if (provinceId) {

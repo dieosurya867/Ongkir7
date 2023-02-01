@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    $("#province_origin").select2({});
+    $("#city_origin").select2({});
     $('select[name="province_origin"]').on("change", function () {
         let provinceId = $(this).val();
         if (provinceId) {
